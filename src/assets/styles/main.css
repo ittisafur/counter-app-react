@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .wrapper {
+    max-width: 1200px;
+    width: 95%;
+    margin: auto;
+    position: relative;
+    @apply py-20;
+  }
+}
+@layer base {
+  body {
+    @apply bg-gray-900;
+  }
+}
